@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="sy1.css">
+</head>
+<body>
+  <div class="admin">
+    <h2>Admin Login</h2>
+    <form action="adminn.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="uname" name="uname"placeholder="Username" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"placeholder="password" required><br><br>
+      <button type="submit">Login</button>
+      <p>if you not an admin? <a href="login.html" id="show-login">Log In</a> / <a href="signup.html" id="show-signup">Signup</a></p>
+    </form>
+  </div>
+  <div id="google_translate_element"></div>
+	<script>
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en'
+			}, 'google_translate_element');
+		}
+	</script>
+	<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </body>
+</html>
